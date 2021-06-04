@@ -1,0 +1,60 @@
+.form-container {
+	grid-area: form;
+	display: flex;
+	flex-direction: column;
+	margin-top: 1em;
+	margin-bottom: 75px;
+	font-family: sans-serif;
+}
+
+.form-container-title {
+	font-size: 1.05rem;
+	margin-bottom: 1em;
+	margin-right: auto;
+}
+
+.personal-details-form-container,
+.school-form-container,
+.work-form-container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 1rem;
+	box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+.name,
+.city {
+	text-transform: capitalize;
+}
+
+.personal-details-form-container {
+	border-bottom: 1px solid grey;
+	margin-top: 3px;
+}
+
+.personal-details-container {
+	text-align: center;
+}
+
+.btn-delete {
+	position: absolute;
+	top: -0.75rem;
+	right: 0rem;
+	color: red;
+	background: transparent;
+	outline: none;
+	border: none;
+	padding: 0.25em;
+	border-radius: 50%;
+	font-size: 2rem;
+	transform: 0.3s ease-in;
+	cursor: pointer;
+	z-index: 10;
+	font-weight: bold;
+}

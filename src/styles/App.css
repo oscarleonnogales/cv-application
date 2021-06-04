@@ -1,0 +1,171 @@
+:root {
+	--box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.3);
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(0, 0%, 97%);
+}
+
+.main-container {
+	display: grid;
+	grid:
+		'. form cv .' auto/
+		1fr minmax(100px, 400px) 8.5in 1fr;
+	grid-gap: 50px;
+}
+
+.bullet-points {
+	list-style-type: disc;
+	margin-left: 1em;
+}
+
+.cv-container {
+	grid-area: cv;
+	box-shadow: var(--box-shadow);
+	margin: 20px;
+	height: 11in;
+	width: 8.5in;
+	background-color: white;
+	position: sticky;
+	top: 1em;
+	overflow: hidden;
+}
+
+#cv {
+	padding: 0.75in 1in;
+	height: 100%;
+	width: 100%;
+	font-size: 1em;
+}
+
+.cv-school-name {
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+.cv-school-city {
+	text-transform: capitalize;
+}
+
+.position,
+.company-name,
+.job-location {
+	text-transform: capitalize;
+}
+
+.name {
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.contact-info {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.cv-header {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.cv-school-description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cv-school-container {
+	margin-top: 0.5em;
+}
+
+.cv-job-container {
+	margin-top: 1em;
+}
+
+.company-name {
+	font-weight: bold;
+}
+
+.position {
+	font-style: italic;
+}
+
+.job-summary {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn {
+	cursor: pointer;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	color: white;
+	background-color: hsl(214, 82%, 51%);
+}
+
+.btn:hover {
+	background-color: hsl(214, 82%, 40%);
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+
+.btn-container:last-child {
+	border-bottom: none;
+}
+
+.generate-and-clear-btn-container {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-areas:
+		'generate generate'
+		'example clear';
+	grid-gap: 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.btn-generate {
+	grid-area: generate;
+	background: hsl(120, 39%, 54%) !important;
+}
+
+.btn-generate:focus,
+.btn-generate:hover {
+	background: hsl(120, 39%, 44%) !important;
+}
+
+.clear-all-btn {
+	grid-area: clear;
+	background: hsl(2, 64%, 58%) !important;
+}
+
+.clear-all-btn:focus,
+.clear-all-btn:hover {
+	background: hsl(2, 64%, 48%) !important;
+}
+
+.btn-load-example {
+	grid-area: example;
+	background: hsl(208, 98%, 43%);
+}
+
+.btn-load-example:hover {
+	background: hsl(208, 98%, 33%);
+}
