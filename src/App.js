@@ -139,7 +139,7 @@ function App() {
 				city: 'san diego',
 				state: 'ca',
 				details: [
-					'Modified and enhanced existing algorithms used to solve non-differentiable optimization problems, achieving an increase in accuracy while reducing runtime.',
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
 					'Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Mauris commodo quis imperdiet massa tincidunt nunc.',
 					'Eget magna fermentum iaculis eu non. Erat imperdiet sed euismod nisi porta lorem mollis. Felis imperdiet proin fermentum leo vel.',
 				],
@@ -153,7 +153,7 @@ function App() {
 				city: 'san diego',
 				state: 'ca',
 				details: [
-					'Modified and enhanced existing algorithms used to solve non-differentiable optimization problems, achieving an increase in accuracy while reducing runtime.',
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
 					'Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Mauris commodo quis imperdiet massa tincidunt nunc.',
 					'Eget magna fermentum iaculis eu non. Erat imperdiet sed euismod nisi porta lorem mollis. Felis imperdiet proin fermentum leo vel.',
 				],
@@ -167,7 +167,7 @@ function App() {
 				city: 'san diego',
 				state: 'ca',
 				details: [
-					'Modified and enhanced existing algorithms used to solve non-differentiable optimization problems, achieving an increase in accuracy while reducing runtime.',
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
 					'Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc. Mauris commodo quis imperdiet massa tincidunt nunc.',
 					'Eget magna fermentum iaculis eu non. Erat imperdiet sed euismod nisi porta lorem mollis. Felis imperdiet proin fermentum leo vel.',
 				],
